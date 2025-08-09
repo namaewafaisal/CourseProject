@@ -1,0 +1,3 @@
+{"users" :[{"_id":{"$oid":"687ca856612670aec2f831a8"},"username":"faisal5","email":"faisal@123","password":"$2a$10$btuse314X9PCvboxTA/ArebGXn51t3bNO.12.GlGVjyR/yOVm1JTW","roles":["ADMIN"],"domain":"IT","_class":"com.vdart.vdartcourses.user.User"},
+{"_id":{"$oid":"687ca9b5612670aec2f831a9"},"username":"faisal6","email":"faisal@123","password":"$2a$10$8EBTdLvxMEHROquqcdIgkuW1tHizuhTxlDwmDWmo7G1mvqFh0W8I6","roles":["USER"],"domain":"IT","_class":"com.vdart.vdartcourses.user.User"}
+]}

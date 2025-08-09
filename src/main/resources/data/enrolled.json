@@ -1,0 +1,5 @@
+{"enrolled": [{"_id":{"$oid":"6883686df61379c7952d0ff5"},"courseId":{"$oid":"68708f43e465e03bbe8fa55f"},"username":"faisal5","isCompleted":false,"score":0,"_class":"com.vdart.vdartcourses.enrollment.Enrollment"},
+{"_id":{"$oid":"68836883f61379c7952d0ff6"},"courseId":{"$oid":"686fde6e150fb7cb5a6d51a5"},"username":"faisal5","enrollmentDate":"2025-07-25T11:20:35.592Z","isCompleted":false,"score":0,"_class":"com.vdart.vdartcourses.enrollment.Enrollment"},
+{"_id":{"$oid":"68836edc4fa53875fde0405f"},"courseId":{"$oid":"686fdd87150fb7cb5a6d51a3"},"username":"faisal5","enrollmentDate":"2025-07-25T11:47:39.662Z","isCompleted":true,"score":0,"_class":"com.vdart.vdartcourses.enrollment.Enrollment"},
+{"_id":{"$oid":"688371d14fa53875fde04063"},"courseId":{"$oid":"688371bd4fa53875fde04060"},"username":"faisal5","enrollmentDate":"2025-07-25T12:00:16.754Z","isCompleted":false,"score":0,"_class":"com.vdart.vdartcourses.enrollment.Enrollment"}
+]}

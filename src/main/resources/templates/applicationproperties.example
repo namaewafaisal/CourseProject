@@ -1,0 +1,10 @@
+# This is a guide to create your application.properties 
+# Create a file names application.properties in ourcourseplatform/src/main/resources/application.properties
+# Add these following text
+
+
+spring.application.name=ourcourseplatform
+spring.data.mongodb.uri=mongodb_uri  # URI can be found in connect cluster
+spring.servlet.multipart.max-file-size=100MB
+spring.servlet.multipart.max-request-size=100MB
+server.tomcat.connection-timeout=300s
