@@ -1,0 +1,113 @@
+User :{
+  _id, 
+  username,  
+  email, 
+  password(Hashed)
+  role,
+  profilePictureUrl
+  profile :{
+    careerGoal,
+    interests[],
+    skills[],
+    experience,
+    achievements,
+    certifications,
+    bio,
+    projects,
+    learningStyle
+  }
+  instructor :{
+    specialization,
+    qualification,
+    teachingExperience,
+    followersCount,
+    rating,
+    ratingsCount,
+    coursesTaught,
+    studentsTaught,
+    teachingStyle,
+    contactInfo,
+  }
+  createdAt
+  updatedAt
+  social :{
+      github,
+      linkdin,
+      instagram,
+    }
+}
+
+Follow :{
+  _id,
+  followerId,
+  followingId,
+  createdAt,
+}
+
+Ratings :{
+  _id,
+  ratedBy,
+  rating,
+  targetType,
+  targetId,
+}
+
+Career :{
+  _id,
+  title,
+  description,
+  difficulty,
+  careerExperts,
+  careerInstructors,
+
+}
+
+Course :{
+  _id,
+  title,
+  description,
+  thumnailUrl
+  careerPaths[],
+  prerequisites[],
+  priorKnowledge[],
+  instructorId
+  views,
+  ratingsCount,
+  ratings,
+  lessons :[
+  {
+    title,
+    videoURL,
+    docUrl,
+
+    }
+  ]
+  projects :[
+  {
+      problemStatement,
+      constraints,
+      neededKnowledge[],
+    }
+  ]
+
+}
+
+Enrollments :{
+  _id,
+  courseId,
+  userId,
+  completedLessons[]
+}
+
+Lesson :{
+
+}
+
+Certificates :{
+
+}
+
+MCQ :{
+    
+}
+

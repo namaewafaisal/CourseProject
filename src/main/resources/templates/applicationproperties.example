@@ -1,5 +1,5 @@
 # This is a guide to create your application.properties 
-# Create a file names application.properties in ourcourseplatform/src/main/resources/application.properties
+# Create a file named application.properties in src/main/resources/application.properties
 # Add these following text
 
 

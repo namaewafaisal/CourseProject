@@ -1,4 +1,4 @@
-package com.courseapp.ourcourseplatform.follow;
+package com.courseapp.ourcourseplatform.project;
 
 import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
@@ -9,13 +9,10 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@AllArgsConstructor
 @NoArgsConstructor
-@Document(collection = "follows")
-public class Follow {
+@AllArgsConstructor
+@Document(collection = "projects")
+public class Project {
     @Id
     private ObjectId id;
-    private ObjectId followerId;
-    private ObjectId followingId;
-    private String createdAt;
 }

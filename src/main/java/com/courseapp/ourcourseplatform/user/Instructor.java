@@ -10,7 +10,6 @@ import lombok.NoArgsConstructor;
 public class Instructor {
     private String specialization;
     private String qualification;
-    private String bio;
     private String teachingExperience;
     private int followersCount;
     private float rating;
